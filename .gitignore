@@ -3,6 +3,23 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# Папка с прекодом-образцами
+html
+
+# Папка 
+blogicum/static_dev
+
+# Файлы admin.py, models.py, tests.py
+
+blogicum/blog/admin.py
+blogicum/blog/models.py
+blogicum/blog/tests.py
+
+blogicum/pages/admin.py
+blogicum/pages/models.py
+blogicum/pages/tests.py
+
 # C extensions
 *.so
 
