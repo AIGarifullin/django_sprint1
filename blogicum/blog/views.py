@@ -59,7 +59,7 @@ def index(request):
 
 def post_detail(request, pk: int):
     template = 'blog/detail.html'
-    if pk in posts_dict.keys():
+    if pk in posts_dict:
         context = {'post': posts_dict[pk]}
         return render(request, template, context)
     raise Http404(f'Пост № {pk} не существует.')
